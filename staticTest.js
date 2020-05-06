@@ -1,7 +1,9 @@
 "use strict";
 
 class test {
-  constructor() {}
+  constructor() {
+    this.config = [];
+  }
 
   fn() {
     console.log("asd");
